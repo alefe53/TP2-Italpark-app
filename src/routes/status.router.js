@@ -1,7 +1,7 @@
 import { Router } from "express";
 
 const statusRouter = Router();
-console.log("20")
+console.log("20");
 statusRouter.get("/v01/status", (req, res) => {
 	res.json({
 		status: 200,
