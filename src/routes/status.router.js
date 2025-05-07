@@ -14,9 +14,8 @@ statusRouter.get("/v02/status", (req, res) => {
 		status: 200,
 		timestatus: new Date().toISOString(),
 		message: "Bienvenidos al Italpark",
-        location:["¡En algun lugar del infinito!"]
+		location: ["¡En algun lugar del infinito!"],
 	});
 });
-
 
 export { statusRouter };
