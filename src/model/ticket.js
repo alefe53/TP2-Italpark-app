@@ -6,8 +6,8 @@ export class Ticket {
 		expDate = new Date(new Date.getDate() + 7 * 24 * 60 * 60 * 1000),
 	) {
 		this.id;
-		this.tipoEntrada;
 		this.userCode;
+		this.tipoEntrada;
 		this.expDate;
 	}
 }
