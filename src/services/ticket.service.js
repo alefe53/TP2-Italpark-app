@@ -1,4 +1,4 @@
-import { TicketRepository } from "../repository/ticket.repository";
+import { TicketRepository } from "../repository/ticket.repository.js";
 
 export const TicketService = {
 	serviceTicketValidation: (id) => {
